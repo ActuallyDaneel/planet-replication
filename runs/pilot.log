@@ -1,0 +1,98 @@
+Device cuda | replay in cuda | jit=True amp=False
+Collected 5 random seed episodes
+ep    6/100 | return    6.2 | img    18.7 rew 0.005 kl 1.15 | train  17.0s collect   7.1s | elapsed 0.01h, left 0.63h
+ep    7/100 | return    8.6 | img    15.4 rew 0.005 kl 2.20 | train  10.9s collect   7.6s | elapsed 0.01h, left 0.55h
+ep    8/100 | return   12.5 | img    10.3 rew 0.005 kl 2.58 | train  11.3s collect   6.8s | elapsed 0.02h, left 0.52h
+ep    9/100 | return   41.5 | img     6.8 rew 0.004 kl 2.56 | train  11.0s collect   6.5s | elapsed 0.02h, left 0.49h
+ep   10/100 | return   53.5 | eval   74.1 | img     5.6 rew 0.002 kl 2.52 | train  10.8s collect   6.8s | elapsed 0.03h, left 0.51h
+ep   11/100 | return   91.8 | img     5.2 rew 0.002 kl 2.57 | train  10.9s collect   6.4s | elapsed 0.03h, left 0.49h
+ep   12/100 | return  117.4 | img     5.0 rew 0.002 kl 2.61 | train  10.8s collect   6.7s | elapsed 0.04h, left 0.48h
+ep   13/100 | return  156.3 | img     4.7 rew 0.002 kl 2.54 | train  11.0s collect   6.6s | elapsed 0.04h, left 0.47h
+ep   14/100 | return  170.5 | img     4.5 rew 0.002 kl 2.60 | train  11.0s collect   6.4s | elapsed 0.05h, left 0.46h
+ep   15/100 | return   84.5 | img     6.6 rew 0.007 kl 2.54 | train  10.9s collect   6.5s | elapsed 0.05h, left 0.45h
+ep   16/100 | return  115.6 | img     5.3 rew 0.005 kl 2.70 | train  10.9s collect   6.4s | elapsed 0.06h, left 0.44h
+ep   17/100 | return  142.9 | img     5.0 rew 0.004 kl 2.66 | train  10.9s collect   6.5s | elapsed 0.06h, left 0.43h
+ep   18/100 | return  157.3 | img     4.8 rew 0.005 kl 2.65 | train  10.8s collect   6.4s | elapsed 0.07h, left 0.42h
+ep   19/100 | return  148.2 | img     4.7 rew 0.003 kl 2.66 | train  10.8s collect   6.4s | elapsed 0.07h, left 0.42h
+ep   20/100 | return  174.9 | eval  203.0 | img     4.6 rew 0.003 kl 2.70 | train  10.8s collect   6.3s | elapsed 0.08h, left 0.42h
+ep   21/100 | return  184.5 | img     4.3 rew 0.002 kl 2.65 | train  10.9s collect   6.4s | elapsed 0.08h, left 0.41h
+ep   22/100 | return  197.3 | img     4.5 rew 0.003 kl 2.68 | train  10.8s collect   6.6s | elapsed 0.09h, left 0.40h
+ep   23/100 | return  207.3 | img     4.3 rew 0.002 kl 2.68 | train  11.0s collect   6.7s | elapsed 0.09h, left 0.40h
+ep   24/100 | return  208.0 | img     4.2 rew 0.002 kl 2.64 | train  11.1s collect   6.5s | elapsed 0.10h, left 0.39h
+ep   25/100 | return  208.2 | img     4.7 rew 0.003 kl 2.69 | train  11.0s collect   6.6s | elapsed 0.10h, left 0.38h
+ep   26/100 | return  217.6 | img     4.5 rew 0.003 kl 2.63 | train  11.0s collect   6.4s | elapsed 0.11h, left 0.38h
+ep   27/100 | return  247.5 | img     4.4 rew 0.003 kl 2.67 | train  10.8s collect   6.5s | elapsed 0.11h, left 0.37h
+ep   28/100 | return  246.6 | img     4.5 rew 0.002 kl 2.69 | train  10.8s collect   6.5s | elapsed 0.12h, left 0.37h
+ep   29/100 | return  226.2 | img     4.2 rew 0.004 kl 2.67 | train  10.9s collect   6.6s | elapsed 0.12h, left 0.36h
+ep   30/100 | return  171.4 | eval  242.3 | img     4.3 rew 0.003 kl 2.68 | train  10.9s collect   6.4s | elapsed 0.13h, left 0.36h
+ep   31/100 | return  265.8 | img     4.0 rew 0.002 kl 2.65 | train  10.8s collect   6.7s | elapsed 0.13h, left 0.35h
+ep   32/100 | return  255.4 | img     4.2 rew 0.002 kl 2.67 | train  11.2s collect   6.4s | elapsed 0.14h, left 0.35h
+ep   33/100 | return  236.0 | img     4.1 rew 0.003 kl 2.66 | train  11.3s collect   6.8s | elapsed 0.14h, left 0.34h
+ep   34/100 | return  145.0 | img     4.2 rew 0.003 kl 2.66 | train  11.4s collect   6.8s | elapsed 0.15h, left 0.34h
+ep   35/100 | return   38.1 | img     4.4 rew 0.003 kl 2.68 | train  11.0s collect   7.2s | elapsed 0.15h, left 0.33h
+ep   36/100 | return   51.5 | img     4.0 rew 0.002 kl 2.65 | train  11.1s collect   6.6s | elapsed 0.16h, left 0.33h
+ep   37/100 | return   47.4 | img     3.7 rew 0.002 kl 2.63 | train  10.8s collect   6.2s | elapsed 0.16h, left 0.32h
+ep   38/100 | return  196.2 | img     4.3 rew 0.003 kl 2.69 | train  10.9s collect   7.1s | elapsed 0.17h, left 0.32h
+ep   39/100 | return   87.6 | img     4.0 rew 0.003 kl 2.66 | train  11.5s collect   6.6s | elapsed 0.17h, left 0.31h
+ep   40/100 | return   55.2 | eval   93.4 | img     4.0 rew 0.002 kl 2.66 | train  11.2s collect   6.6s | elapsed 0.18h, left 0.31h
+ep   41/100 | return  251.2 | img     4.0 rew 0.003 kl 2.60 | train  11.4s collect   7.3s | elapsed 0.19h, left 0.30h
+ep   42/100 | return  264.5 | img     3.7 rew 0.003 kl 2.63 | train  11.6s collect   6.7s | elapsed 0.19h, left 0.30h
+ep   43/100 | return  254.2 | img     3.6 rew 0.004 kl 2.69 | train  11.5s collect   7.0s | elapsed 0.20h, left 0.29h
+ep   44/100 | return  221.8 | img     3.6 rew 0.004 kl 2.61 | train  11.4s collect   6.1s | elapsed 0.20h, left 0.29h
+ep   45/100 | return   62.4 | img     3.7 rew 0.002 kl 2.66 | train  10.5s collect   6.0s | elapsed 0.20h, left 0.28h
+ep   46/100 | return  263.9 | img     3.9 rew 0.003 kl 2.66 | train  10.5s collect   6.0s | elapsed 0.21h, left 0.28h
+ep   47/100 | return  260.1 | img     3.5 rew 0.002 kl 2.65 | train  10.6s collect   6.0s | elapsed 0.21h, left 0.27h
+ep   48/100 | return  272.1 | img     3.5 rew 0.003 kl 2.67 | train  10.6s collect   6.0s | elapsed 0.22h, left 0.26h
+ep   49/100 | return  141.2 | img     4.0 rew 0.002 kl 2.65 | train  10.8s collect   6.6s | elapsed 0.22h, left 0.26h
+ep   50/100 | return  158.2 | eval  298.7 | img     3.6 rew 0.002 kl 2.64 | train  10.9s collect   6.4s | elapsed 0.23h, left 0.26h
+ep   51/100 | return   56.4 | img     3.5 rew 0.003 kl 2.59 | train  10.9s collect   6.7s | elapsed 0.23h, left 0.25h
+ep   52/100 | return  215.9 | img     3.5 rew 0.002 kl 2.62 | train  11.0s collect   6.1s | elapsed 0.24h, left 0.24h
+ep   53/100 | return  149.4 | img     3.8 rew 0.002 kl 2.58 | train  10.6s collect   6.0s | elapsed 0.24h, left 0.24h
+ep   54/100 | return  283.4 | img     3.7 rew 0.002 kl 2.62 | train  10.6s collect   6.0s | elapsed 0.25h, left 0.23h
+ep   55/100 | return   59.5 | img     3.7 rew 0.003 kl 2.57 | train  10.6s collect   6.0s | elapsed 0.25h, left 0.23h
+ep   56/100 | return  179.0 | img     3.4 rew 0.002 kl 2.61 | train  10.5s collect   6.1s | elapsed 0.26h, left 0.22h
+ep   57/100 | return  123.5 | img     4.1 rew 0.002 kl 2.58 | train  10.6s collect   6.0s | elapsed 0.26h, left 0.22h
+ep   58/100 | return  162.7 | img     3.6 rew 0.002 kl 2.61 | train  10.6s collect   6.1s | elapsed 0.27h, left 0.21h
+ep   59/100 | return  116.0 | img     3.5 rew 0.002 kl 2.61 | train  10.5s collect   6.0s | elapsed 0.27h, left 0.21h
+ep   60/100 | return   87.9 | eval   63.3 | img     3.6 rew 0.003 kl 2.64 | train  10.7s collect   6.0s | elapsed 0.28h, left 0.20h
+ep   61/100 | return  169.0 | img     3.5 rew 0.002 kl 2.61 | train  11.0s collect   6.1s | elapsed 0.28h, left 0.20h
+ep   62/100 | return   81.6 | img     3.6 rew 0.002 kl 2.66 | train  10.5s collect   6.0s | elapsed 0.29h, left 0.19h
+ep   63/100 | return   90.5 | img     3.5 rew 0.002 kl 2.62 | train  10.6s collect   6.3s | elapsed 0.29h, left 0.19h
+ep   64/100 | return  119.1 | img     3.6 rew 0.003 kl 2.69 | train  10.9s collect   6.4s | elapsed 0.30h, left 0.18h
+ep   65/100 | return  157.0 | img     3.5 rew 0.003 kl 2.63 | train  10.7s collect   6.7s | elapsed 0.30h, left 0.18h
+ep   66/100 | return  143.0 | img     3.4 rew 0.003 kl 2.62 | train  11.4s collect   6.6s | elapsed 0.31h, left 0.17h
+ep   67/100 | return  157.7 | img     3.5 rew 0.002 kl 2.61 | train  12.4s collect   6.8s | elapsed 0.31h, left 0.17h
+ep   68/100 | return  236.7 | img     3.4 rew 0.002 kl 2.63 | train  11.3s collect   6.8s | elapsed 0.32h, left 0.16h
+ep   69/100 | return   79.5 | img     3.3 rew 0.002 kl 2.64 | train  11.0s collect   6.4s | elapsed 0.32h, left 0.16h
+ep   70/100 | return  147.3 | eval  328.3 | img     3.3 rew 0.002 kl 2.66 | train  10.8s collect   6.4s | elapsed 0.33h, left 0.15h
+ep   71/100 | return  173.4 | img     3.3 rew 0.002 kl 2.60 | train  10.9s collect   6.5s | elapsed 0.33h, left 0.15h
+ep   72/100 | return  176.4 | img     3.1 rew 0.002 kl 2.60 | train  11.1s collect   6.6s | elapsed 0.34h, left 0.14h
+ep   73/100 | return   74.4 | img     3.5 rew 0.002 kl 2.62 | train  11.1s collect   6.9s | elapsed 0.34h, left 0.14h
+ep   74/100 | return  352.0 | img     3.4 rew 0.001 kl 2.55 | train  11.6s collect   6.6s | elapsed 0.35h, left 0.13h
+ep   75/100 | return  110.8 | img     3.2 rew 0.002 kl 2.57 | train  11.4s collect   6.8s | elapsed 0.35h, left 0.13h
+ep   76/100 | return  113.2 | img     3.2 rew 0.002 kl 2.56 | train  11.3s collect   6.9s | elapsed 0.36h, left 0.12h
+ep   77/100 | return  128.7 | img     3.4 rew 0.002 kl 2.58 | train  11.4s collect   7.0s | elapsed 0.36h, left 0.12h
+ep   78/100 | return   85.1 | img     3.2 rew 0.002 kl 2.61 | train  11.8s collect   6.6s | elapsed 0.37h, left 0.11h
+ep   79/100 | return  325.6 | img     3.2 rew 0.002 kl 2.57 | train  11.4s collect   6.5s | elapsed 0.37h, left 0.11h
+ep   80/100 | return  133.7 | eval  130.2 | img     3.2 rew 0.003 kl 2.58 | train  11.3s collect   6.7s | elapsed 0.38h, left 0.10h
+ep   81/100 | return  210.7 | img     3.3 rew 0.002 kl 2.58 | train  11.4s collect   6.5s | elapsed 0.39h, left 0.10h
+ep   82/100 | return  143.8 | img     3.1 rew 0.002 kl 2.65 | train  11.3s collect   6.4s | elapsed 0.39h, left 0.09h
+ep   83/100 | return  113.1 | img     3.1 rew 0.002 kl 2.59 | train  11.1s collect   6.9s | elapsed 0.40h, left 0.09h
+ep   84/100 | return  245.8 | img     3.1 rew 0.002 kl 2.64 | train  11.3s collect   6.0s | elapsed 0.40h, left 0.08h
+ep   85/100 | return  351.4 | img     3.1 rew 0.002 kl 2.56 | train  10.6s collect   6.6s | elapsed 0.41h, left 0.08h
+ep   86/100 | return  113.4 | img     3.0 rew 0.002 kl 2.61 | train  11.5s collect   6.7s | elapsed 0.41h, left 0.07h
+ep   87/100 | return  196.5 | img     2.9 rew 0.002 kl 2.60 | train  11.2s collect   6.5s | elapsed 0.41h, left 0.07h
+ep   88/100 | return  232.1 | img     3.0 rew 0.002 kl 2.61 | train  11.3s collect   6.5s | elapsed 0.42h, left 0.06h
+ep   89/100 | return  218.8 | img     3.3 rew 0.002 kl 2.62 | train  11.3s collect   6.5s | elapsed 0.42h, left 0.06h
+ep   90/100 | return  371.9 | eval  125.0 | img     3.1 rew 0.002 kl 2.58 | train  11.5s collect   6.8s | elapsed 0.43h, left 0.05h
+ep   91/100 | return  207.3 | img     3.4 rew 0.002 kl 2.67 | train  11.3s collect   6.8s | elapsed 0.44h, left 0.05h
+ep   92/100 | return   90.8 | img     3.0 rew 0.002 kl 2.61 | train  10.6s collect   5.9s | elapsed 0.44h, left 0.04h
+ep   93/100 | return   88.4 | img     2.9 rew 0.002 kl 2.68 | train  10.7s collect   6.5s | elapsed 0.45h, left 0.04h
+ep   94/100 | return  200.6 | img     3.1 rew 0.002 kl 2.60 | train  10.9s collect   6.5s | elapsed 0.45h, left 0.03h
+ep   95/100 | return   50.4 | img     3.0 rew 0.003 kl 2.62 | train  11.0s collect   6.3s | elapsed 0.46h, left 0.03h
+ep   96/100 | return   92.6 | img     3.0 rew 0.002 kl 2.59 | train  10.9s collect   6.6s | elapsed 0.46h, left 0.02h
+ep   97/100 | return  126.6 | img     3.1 rew 0.002 kl 2.56 | train  10.8s collect   6.3s | elapsed 0.47h, left 0.02h
+ep   98/100 | return   99.3 | img     3.0 rew 0.002 kl 2.59 | train  10.8s collect   6.4s | elapsed 0.47h, left 0.01h
+ep   99/100 | return  192.0 | img     3.0 rew 0.002 kl 2.58 | train  10.8s collect   6.1s | elapsed 0.47h, left 0.01h
+ep  100/100 | return  116.5 | eval  150.9 | img     3.1 rew 0.001 kl 2.58 | train  10.8s collect   6.5s | elapsed 0.48h, left 0.00h
+Final evaluation over 10 episodes: 166.0 +/- 72.7

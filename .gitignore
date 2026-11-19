@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Trained models are shared as a GitHub release, not committed.
+*.pt
+models/
+release/
+
+# Replay episodes are about 3 GB per run.
+runs/**/episodes/
+runs/study/.lock
